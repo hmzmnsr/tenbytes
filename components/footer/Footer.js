@@ -70,11 +70,11 @@ const Footer = () => {
                                         <input id="footer_mail_input" type="email" name="email" placeholder="Enter your email" />
                                         <button type="submit"><i className="fa-solid fa-paper-plane"></i></button>
                                     </form>
-                                    <ul className="social_links_block unordered_list">
+                                    {/* <ul className="social_links_block unordered_list">
                                         <li><Link onClick={ClickHandler} href="/">Facebook</Link></li>
                                         <li><Link onClick={ClickHandler} href="/">Twitter</Link></li>
                                         <li><Link onClick={ClickHandler} href="/">LinkedIn</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6">

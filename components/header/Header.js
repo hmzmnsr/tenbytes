@@ -62,15 +62,15 @@ const Header = (props) => {
                             <nav className="main_menu navbar navbar-expand-lg">
                                 <div className="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
                                     <ul className="main_menu_list unordered_list justify-content-center">
-                                        <li className="dropdown">
+                                        <li>
                                             <Link onClick={ClickHandler} className="nav-link" href="/" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Home
                                             </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="home_submenu">
+                                            {/* <ul className="dropdown-menu" aria-labelledby="home_submenu">
                                                 <li><Link onClick={ClickHandler} href="/">IT Solution</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home_software_company">Software Company</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home_business_consulting">Business Consulting</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="dropdown">
                                             <Link onClick={ClickHandler} className="nav-link" href="/" id="company_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
