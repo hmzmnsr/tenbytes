@@ -48,14 +48,14 @@ const Testimonial = () => {
 
     return (
 
-        <section className="review_section section_space bg-light" style={{ backgroundImage: `url(${Bg})` }}>
+        <section className="review_section section_space bg-black" style={{ backgroundImage: `url(${Bg})` }}>
             <div className="container">
                 <div className="heading_block text-center">
-                    <div className="heading_focus_text">
+                    <div className="heading_focus_text text-white">
                         <span className="badge bg-secondary text-white">Client</span>
-                        Testimonial 🙂
+                        Testimonial
                     </div>
-                    <h2 className="heading_text mb-0">
+                    <h2 className="heading_text mb-0 text-white">
                         What clients say
                     </h2>
                 </div>

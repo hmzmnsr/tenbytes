@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Bg from '/public/images/shapes/bg_pattern_1.svg'
 import icon1 from '/public/images/icons/icon_calendar.svg'
 import Image from 'next/image'
-
+ 
 
 
 const BlogSection = (props) => {
@@ -17,11 +17,11 @@ const BlogSection = (props) => {
         <section className="blog_section section_space bg-black" style={{ backgroundImage: `url(${Bg})` }}>
             <div className="container">
                 <div className="heading_block text-center">
-                    <div className="heading_focus_text">
+                    <div className="heading_focus_text text-white">
                         <span className="badge bg-secondary text-white">Blog</span>
                         Updates
                     </div>
-                    <h2 className="heading_text mb-0">
+                    <h2 className="heading_text mb-0 text-white">
                         Latest Articles Posts
                     </h2>
                 </div>

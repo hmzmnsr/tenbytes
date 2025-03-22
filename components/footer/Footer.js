@@ -18,7 +18,7 @@ const SubmitHandler = (e) => {
 
 const Footer = (props) => {
     return (
-        <footer className="site_footer footer_layout_1">
+        <footer className="site_footer footer_layout_1" style={{backgroundColor : "#FFFFFF"}}>
             <div className="content_box" style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_3.svg'})` }}>
                 <div className="container">
                     <div className="diract_contact_links text-white">
