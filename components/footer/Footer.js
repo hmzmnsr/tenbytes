@@ -15,11 +15,10 @@ const SubmitHandler = (e) => {
     e.preventDefault()
 }
 
-
-const Footer = (props) => {
+const Footer = () => {
     return (
-        <footer className="site_footer footer_layout_1" style={{backgroundColor : "#FFFFFF"}}>
-            <div className="content_box" style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_3.svg'})` }}>
+        <footer className="site_footer footer_layout_1" style={{ backgroundColor: "#000000" }}>
+            <div className="content_box" style={{ backgroundImage: `none`, backgroundColor: "#000000" }}>
                 <div className="container">
                     <div className="diract_contact_links text-white">
                         <div className="iconbox_block layout_icon_left">
@@ -60,8 +59,8 @@ const Footer = (props) => {
                         <div className="row justify-content-lg-between">
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer_widget pe-md-3">
-                                    <h2 className="footer_info_title">Newsletter</h2>
-                                    <p>
+                                    <h2 className="footer_info_title text-white">Newsletter</h2>
+                                    <p className="text-white">
                                         Sign up to Techco weekly newsletter to get the latest updates.
                                     </p>
                                     <form className="footer_newslatter" onSubmit={SubmitHandler}>
@@ -74,23 +73,23 @@ const Footer = (props) => {
                                     <ul className="social_links_block unordered_list">
                                         <li><Link onClick={ClickHandler} href="/">Facebook</Link></li>
                                         <li><Link onClick={ClickHandler} href="/">Twitter</Link></li>
-                                        <li><Link onClick={ClickHandler} href="/">Linkdin</Link></li>
+                                        <li><Link onClick={ClickHandler} href="/">LinkedIn</Link></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="footer_widget">
-                                    <h3 className="footer_info_title">Services</h3>
+                                    <h3 className="footer_info_title text-white">Services</h3>
                                     <ul className="icon_list unordered_list_block">
                                         {Services.slice(0, 6).map((service, srv) => (
                                             <li key={srv}>
-                                                {service.title ?
+                                                {service.title ? (
                                                     <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${service.slug}`}>
-                                                        <span className="icon_list_text">
+                                                        <span className="icon_list_text text-white">
                                                             {service.title}
                                                         </span>
                                                     </Link>
-                                                    : ''}
+                                                ) : ''}
                                             </li>
                                         ))}
                                     </ul>
@@ -98,46 +97,46 @@ const Footer = (props) => {
                             </div>
                             <div className="col-lg-2 col-md-6 col-sm-6">
                                 <div className="footer_widget">
-                                    <h3 className="footer_info_title">Information</h3>
+                                    <h3 className="footer_info_title text-white">Information</h3>
                                     <ul className="icon_list unordered_list_block">
                                         <li>
                                             <Link onClick={ClickHandler} href="/about">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     About Techco
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/service">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Investors
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/contact">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Contact
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/about">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Affiliate Program
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/portfolio">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Career
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/pricing">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Pricing Plan
                                                 </span>
                                             </Link>
@@ -147,46 +146,46 @@ const Footer = (props) => {
                             </div>
                             <div className="col-lg-2 col-md-6 col-sm-6">
                                 <div className="footer_widget">
-                                    <h3 className="footer_info_title">Product</h3>
+                                    <h3 className="footer_info_title text-white">Product</h3>
                                     <ul className="icon_list unordered_list_block">
                                         <li>
                                             <Link onClick={ClickHandler} href="/portfolio">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Case Studies
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/pricing">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Our Pricing
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/service">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Features
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/about">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Overview
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/blog">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     New Releases
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link onClick={ClickHandler} href="/pricing">
-                                                <span className="icon_list_text">
+                                                <span className="icon_list_text text-white">
                                                     Solutions
                                                 </span>
                                             </Link>
@@ -198,13 +197,13 @@ const Footer = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="footer_bottom">
+            <div className="footer_bottom" style={{ backgroundColor: "#000000" }}>
                 <div className="container d-md-flex align-items-md-center justify-content-md-between">
-                    <p className="copyright_text m-0">
-                        Copyright © 2024 Techco, All rights reserved.
+                    <p className="copyright_text m-0 text-white">
+                        Copyright © 2025 TenBytes, All rights reserved.
                     </p>
-                    <p className="copyright_text m-0">
-                        Developed by <Link onClick={ClickHandler} href="/">XpressBuddy</Link>
+                    <p className="copyright_text m-0 text-white">
+                        Developed by <Link onClick={ClickHandler} href="/">TenBytes</Link>
                     </p>
                 </div>
             </div>

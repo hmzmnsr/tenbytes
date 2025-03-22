@@ -47,9 +47,6 @@ const Header = (props) => {
     return (
 
         <header className="site_header site_header_1">
-            <div className="header_top text-center">
-               
-            </div>
             <div className={`header_bottom stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
