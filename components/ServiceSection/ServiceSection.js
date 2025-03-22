@@ -2,7 +2,7 @@ import React from 'react';
 import Services from '../../api/service'
 import Link from 'next/link'
 import Image from 'next/image';
-
+ 
 const ServiceSection = (props) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
