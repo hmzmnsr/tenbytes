@@ -30,7 +30,7 @@ const ProjectSection = () => {
                         <div className="col-lg-7">
                             <div className="heading_focus_text">
                                 <span className="badge bg-secondary text-white">Crafting</span>
-                                Success With 😍 Project
+                                Success With Project
                             </div>
                             <h2 className="heading_text">
                                 Our Recent Best Works

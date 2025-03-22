@@ -28,7 +28,6 @@ const HomePage = () => {
                     <ServiceSection />
                     <ProjectSection />
                     <Testimonial />
-                    <TeamSection />
                     <BlogSection />
                     
                     <CtaSection />
