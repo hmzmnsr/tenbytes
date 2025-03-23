@@ -9,55 +9,55 @@ import Image from 'next/image'
 
 const ContactSection = (props) => {
     return (
-        <section className="contact_section section_space bg-light">
+        <section className="contact_section section_space bg-white">
             <div className="container">
                 <div className="contact_info_box row">
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="iconbox_block text-center">
+                        <div className="iconbox_block text-center bg-black">
                             <div className="iconbox_icon">
                                 <Image src={icon1} alt="Map Mark SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title">Location</h3>
-                                <p className="mb-0">
+                                <h3 className="iconbox_title text-white">Location</h3>
+                                <p className="mb-0 text-white">
                                     Sunshine Business Park Sector-94, Poland
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="iconbox_block text-center">
+                        <div className="iconbox_block text-center bg-black">
                             <div className="iconbox_icon">
                                 <Image src={icon2} alt="Calling SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title">Contact</h3>
-                                <p className="mb-0">+88(0) 555-0108</p>
-                                <div className="mb-0">+88(0) 555-01117</div>
+                                <h3 className="iconbox_title text-white">Contact</h3>
+                                <p className="mb-0 text-white">+88(0) 555-0108</p>
+                                <div className="mb-0 text-white">+88(0) 555-01117</div>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="iconbox_block text-center">
+                        <div className="iconbox_block text-center bg-black">
                             <div className="iconbox_icon">
                                 <Image src={icon3} alt="User Check SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title">Email</h3>
-                                <p className="mb-0">Techco@example.com</p>
-                                <p className="mb-0">gmail.@example.com</p>
+                                <h3 className="iconbox_title text-white">Email</h3>
+                                <p className="mb-0 text-white">Techco@example.com</p>
+                                <p className="mb-0 text-white">gmail.@example.com</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="iconbox_block text-center">
+                        <div className="iconbox_block text-center bg-black">
                             <div className="iconbox_icon">
                                 <Image src={icon4} alt="Calendar SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title">Visit Between</h3>
-                                <p className="mb-0">Mon - Sat: 8.00-5.00</p>
-                                <p className="mb-0">Sunday: Closed</p>
+                                <h3 className="iconbox_title text-white">Visit Between</h3>
+                                <p className="mb-0 text-white">Mon - Sat: 8.00-5.00</p>
+                                <p className="mb-0 text-white">Sunday: Closed</p>
                             </div>
                         </div>
                     </div>
