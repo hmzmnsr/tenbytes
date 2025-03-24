@@ -20,7 +20,7 @@ const ServicePage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'Our Services'} pagesub={'Services 😍'} pageTop={'Our Main'} />
+                <PageTitle pageTitle={'Our Services'} pagesub={'Services'} pageTop={'Our Main'} />
                 <section className="about_section section_space bg-light">
                     <div className="container">
                         <div className="row align-items-center justify-content-lg-between">
