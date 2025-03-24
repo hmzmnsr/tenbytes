@@ -11,7 +11,7 @@ import icon8 from "/public/images/clients/client_logo_9.webp";
 import icon9 from "/public/images/clients/client_logo_10.webp";
 import icon10 from "/public/images/avatar/avatar_7.webp";
 import icon11 from "/public/images/icons/icon_quote.svg";
-import logo from "/public/images/site_logo/site_logo_3.svg";
+import logo from "/public/images/site_logo/site_logo_3.png";
 import cases from "/public/images/case/case_image_4.webp";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import Image from "next/image";
@@ -539,7 +539,7 @@ const Header = (props) => {
                                       <li>
                                         <Link
                                           onClick={ClickHandler}
-                                          href="/service-single/Custom Software Development"
+                                          href="/service-single/Web-Application-Design-and-Development"
                                         >
                                           <span className="icon_list_text">
                                             Software Development
@@ -608,7 +608,7 @@ const Header = (props) => {
                                       <li>
                                         <Link
                                           onClick={ClickHandler}
-                                          href="/service"
+                                          href="/service-single/Digital-Transformation-Consulting"
                                         >
                                           <span className="icon_list_text">
                                             Hotels
