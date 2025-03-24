@@ -50,7 +50,7 @@ const Header = (props) => {
           isSticky ? "stricked-menu stricky-fixed" : ""
         }`}
       >
-        <div className="container">
+        <div className="container ps-4">
           <div className="row align-items-center">
             <div className="col-xl-3 col-lg-2 col-5">
               <div className="site_logo">
