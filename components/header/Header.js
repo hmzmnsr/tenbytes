@@ -72,7 +72,7 @@ const Header = (props) => {
                   id="main_menu_dropdown"
                 >
                   <ul className="main_menu_list unordered_list justify-content-center">
-                    <li className="dropdown">
+                    <li>
                       <Link
                         onClick={ClickHandler}
                         className="nav-link"
@@ -91,22 +91,6 @@ const Header = (props) => {
                         <li>
                           <Link onClick={ClickHandler} href="/">
                             IT Solution
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            onClick={ClickHandler}
-                            href="/home_software_company"
-                          >
-                            Software Company
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            onClick={ClickHandler}
-                            href="/home_business_consulting"
-                          >
-                            Business Consulting
                           </Link>
                         </li>
                       </ul>
