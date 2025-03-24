@@ -30,8 +30,8 @@ const About = (props) => {
                         <div className="about_content">
                             <div className="heading_block">
                                 <div className="heading_focus_text">
-                                    We are 😃
-                                    <span className="badge bg-secondary text-white">Techco</span>
+                                    We are
+                                    <span className="badge bg-secondary text-white">TenBytes</span>
                                 </div>
                                 <h2 className="heading_text">
                                     Our Commitment to Client Satisfaction

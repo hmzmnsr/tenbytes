@@ -11,8 +11,8 @@ const ContactPage = (props) => {
     return (
         <Fragment>
             <Header />
-            <main className="page_content about-page">
-                <PageTitle pageTitle={'Contact Us'} pagesub={'Us 😍'} pageTop={'Contact'} />
+            <main className="page_content about-page" style={{ paddingTop: "110px" }}>
+                <PageTitle pageTitle={'Contact Us'} pagesub={'Us'} pageTop={'Contact'} />
                 <ContactSection />
                 <CtaSection />
             </main>

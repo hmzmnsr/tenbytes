@@ -41,7 +41,7 @@ const Policy = [
 const WhyUs = (props) => {
 
     return (
-        <section className="service_section section_space bg-light">
+        <section className="service_section section_space bg-black" style={{ marginBottom: "120px" }}>
             <div className="container">
                 <div className="row align-items-center justify-content-lg-between">
                     <div className="col-lg-6">
@@ -52,11 +52,11 @@ const WhyUs = (props) => {
                     <div className="col-lg-6">
                         <div className="ps-lg-5">
                             <div className="heading_block">
-                                <div className="heading_focus_text">
+                                <div className="heading_focus_text text-white">
                                     <span className="badge bg-secondary text-white">Why Us</span>
                                     Better
                                 </div>
-                                <h2 className="heading_text mb-0">
+                                <h2 className="heading_text mb-0 text-white">
                                     Why Our Services are Better Than Others?
                                 </h2>
                             </div>

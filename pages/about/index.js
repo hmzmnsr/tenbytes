@@ -9,7 +9,6 @@ import ModalVideo from 'react-modal-video'
 import PolicySection from './Policy';
 import WhyUs from './WhyUs';
 import FeaturesSection from '../../components/FeaturesSection/FeaturesSection';
-import TeamSection from '../../components/TeamSection/TeamSection';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Image from 'next/image';
 
@@ -21,8 +20,8 @@ const AboutUsPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'About Us'} pagesub={'More Techco 😃'} pageTop={'About'}/>
-                <section className="intro_about_section section_space bg-light">
+                <PageTitle pageTitle={'About Us'} pagesub={'More TenBytes'} pageTop={'About'}/>
+                <section className="intro_about_section section_space bg-black">
                     <div className="intro_about_content">
                         <div className="container">
                             <div className="row">
@@ -34,11 +33,7 @@ const AboutUsPage = (props) => {
                                 <div className="col-lg-4">
                                     <div className="image_wrap position-relative">
                                         <Image src={aImg2} alt="Techco - About" />
-                                        <button className="video_btn ripple_effect" onClick={() => setOpen(true)}>
-                                            <span className="btn_icon">
-                                                <i className="fa-solid fa-play"></i>
-                                            </span>
-                                        </button>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -48,17 +43,17 @@ const AboutUsPage = (props) => {
                         <div className="heading_block mb-0">
                             <div className="row justify-content-lg-between">
                                 <div className="col-lg-4">
-                                    <div className="heading_focus_text">
+                                    <div className="heading_focus_text text-white">
                                         About
-                                        <span className="badge bg-secondary text-white">Techco 🙂</span>
+                                        <span className="badge bg-secondary text-white">TenBytes</span>
                                     </div>
-                                    <h2 className="heading_text mb-0">
+                                    <h2 className="heading_text mb-0 text-white">
                                         We Provide You Flexible Services
                                     </h2>
                                 </div>
                                 <div className="col-lg-6">
-                                    <p className="heading_description mb-0">
-                                        At Techco, we pride ourselves on offering dynamic and  IT  to suit your specific requirements. Our flexible approach means we can  adjust our offerings to accommodate your evolving needs, whether you require comprehensive IT infrastructure support, strategic consultancy, software development
+                                    <p className="heading_description mb-0 text-white">
+                                        At TenBytes, we pride ourselves on offering dynamic and  IT  to suit your specific requirements. Our flexible approach means we can  adjust our offerings to accommodate your evolving needs, whether you require comprehensive IT infrastructure support, strategic consultancy, software development
                                     </p>
                                 </div>
                             </div>
@@ -67,7 +62,6 @@ const AboutUsPage = (props) => {
                 </section>
                 <PolicySection />
                 <FeaturesSection />
-                <TeamSection />
                 <WhyUs />
                 <CtaSection />
             </main>

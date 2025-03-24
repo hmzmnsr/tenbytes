@@ -14,14 +14,14 @@ const BlogSection = (props) => {
     }
 
     return (
-        <section className="blog_section section_space bg-black" style={{ backgroundImage: `url(${Bg})` }}>
+        <section className="blog_section section_space" style={{ backgroundImage: `url(${Bg})` }}>
             <div className="container">
                 <div className="heading_block text-center">
-                    <div className="heading_focus_text text-white">
+                    <div className="heading_focus_text text-black">
                         <span className="badge bg-secondary text-white">Blog</span>
                         Updates
                     </div>
-                    <h2 className="heading_text mb-0 text-white">
+                    <h2 className="heading_text mb-0 text-black">
                         Latest Articles Posts
                     </h2>
                 </div>

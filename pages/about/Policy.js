@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Policy = [
     {
         title: 'Our History',
-        subTitle: 'Since 1997 we have been a visionary and a reliable software engineering partner for world-class brands. abbreviated as co.',
+        subTitle: 'Since 2016 we have been a visionary and a reliable software engineering partner for world-class brands. abbreviated as co.',
         icon: sIcon1,
     },
     {
@@ -28,7 +28,7 @@ const Policy = [
 const PolicySection = (props) => {
 
     return (
-        <section className="policy_section bg-light">
+        <section className="policy_section bg-black">
             <div className="container">
                 <div className="row">
                     {Policy.map((policy, pitem) => (

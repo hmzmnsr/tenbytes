@@ -36,7 +36,7 @@ const TeamSection = (props) => {
                 <div className="heading_block text-center">
                     <div className="heading_focus_text">
                         <span className="badge bg-secondary text-white">Our Expert</span>
-                        Team Members 😍
+                        Team Members
                     </div>
                     <h2 className="heading_text mb-0">
                         Top Skilled Experts
