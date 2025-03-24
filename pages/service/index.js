@@ -21,7 +21,7 @@ const ServicePage = (props) => {
             <Header />
             <main className="page_content about-page">
                 <PageTitle pageTitle={'Our Services'} pagesub={'Services'} pageTop={'Our Main'} />
-                <section className="about_section section_space bg-light">
+                <section className="about_section section_space bg-white">
                     <div className="container">
                         <div className="row align-items-center justify-content-lg-between">
                             <div className="col-lg-5 order-lg-last">
@@ -34,7 +34,7 @@ const ServicePage = (props) => {
                                     <div className="heading_block">
                                         <div className="heading_focus_text">
                                             We Are
-                                            <span className="badge bg-secondary text-white">IT Guidance 🙂</span>
+                                            <span className="badge bg-secondary text-white">IT Guidance</span>
                                         </div>
                                         <h2 className="heading_text">
                                             Tailored IT Solutions for Your Success

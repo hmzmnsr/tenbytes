@@ -12,11 +12,11 @@ const ServiceSection = (props) => {
         <section className="service_section section_space xb-hidden pb-0">
             <div className="container">
                 <div className="heading_block text-center">
-                    <div className="heading_focus_text">
+                    <div className="heading_focus_text text-white">
                         Our
                         <span className="badge bg-secondary text-white">Specialize</span>
                     </div>
-                    <h2 className="heading_text mb-0">
+                    <h2 className="heading_text mb-0 text-white">
                         Featured Services
                     </h2>
                 </div>
@@ -50,12 +50,16 @@ const ServiceSection = (props) => {
                 </div>
 
                 <div className="btns_group pb-0">
-                    <Link onClick={ClickHandler} className="btn btn-outline-light" href="/service">
-                        <span className="btn_label" data-text="More Services">More Services</span>
-                        <span className="btn_icon">
-                            <i className="fa-solid fa-arrow-up-right"></i>
-                        </span>
-                    </Link>
+                <Link 
+    className="btn btn-outline-light" 
+    href="/service" 
+    style={{ backgroundColor: "#ffffff", color: "#000", border: "1px solid #000" }}
+>
+    <span className="btn_label" data-text="More Services">More Services</span>
+    <span className="btn_icon">
+        <i className="fa-solid fa-arrow-up-right"></i>
+    </span>
+</Link>
                 </div>
             </div>
         </section>
