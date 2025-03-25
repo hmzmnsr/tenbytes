@@ -29,7 +29,7 @@ const BlogList = (props) => {
     }
 
     return (
-        <section className="blog_section section_space bg-light">
+        <section className="blog_section section_space bg-white">
             <div className="container">
                 <div className="blog_onecol_carousel overflow-hidden">
                     <div className="swiper-wrapper">

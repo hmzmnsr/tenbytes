@@ -28,8 +28,8 @@ const PortfolioPage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={'Our Portfolio'} pagesub={'Portfolio 😍'} pageTop={'Our'} />
-                <section className="portfolio_section section_space bg-light">
+                <PageTitle pageTitle={'Our Portfolio'} pagesub={'Portfolio'} pageTop={'Our'} />
+                <section className="portfolio_section section_space bg-white">
                     <div className="container">
                         <div className="filter_elements_nav">
                             <ul className="unordered_list justify-content-center">

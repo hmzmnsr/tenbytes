@@ -27,7 +27,7 @@ const FaqSection = (props) => {
     };
 
     return (
-        <section className="process_technology_review_section bg-light section_decoration">
+        <section className="process_technology_review_section bg-white section_decoration">
             <div className="container">
                 <div className="row align-items-center justify-content-lg-between">
                     <div className="col-lg-6">

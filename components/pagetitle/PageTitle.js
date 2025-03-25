@@ -3,7 +3,7 @@ import React from 'react'
 
 const PageTitle = (props) => {
     return (
-        <section className="page_banner_section text-center" style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_4.svg'})` }}>
+        <section className="page_banner_section text-center" style={{ backgroundColor: "#000000" }}>
             <div className="container">
                 <div className="heading_focus_text text-white">
                     {props.pageTop}

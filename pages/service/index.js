@@ -11,6 +11,7 @@ import WhyUs from "../about/WhyUs";
 import Image from "next/image";
 
 const ServicePage = (props) => {
+<<<<<<< HEAD
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
@@ -39,6 +40,48 @@ const ServicePage = (props) => {
                       <span className="badge bg-secondary text-white">
                         IT Guidance 🙂
                       </span>
+=======
+
+    const ClickHandler = () => {
+        window.scrollTo(10, 0);
+    }
+    return (
+        <Fragment>
+            <Header />
+            <main className="page_content about-page">
+                <PageTitle pageTitle={'Our Services'} pagesub={'Services'} pageTop={'Our Main'} />
+                <section className="about_section section_space bg-white">
+                    <div className="container">
+                        <div className="row align-items-center justify-content-lg-between">
+                            <div className="col-lg-5 order-lg-last">
+                                <div className="team_cartoon_image">
+                                    <Image src={srImg} alt="Service Cartoon"/>
+                                </div>
+                            </div>
+                            <div className="col-lg-5">
+                                <div className="about_content">
+                                    <div className="heading_block">
+                                        <div className="heading_focus_text">
+                                            We Are
+                                            <span className="badge bg-secondary text-white">IT Guidance</span>
+                                        </div>
+                                        <h2 className="heading_text">
+                                            Tailored IT Solutions for Your Success
+                                        </h2>
+                                        <p className="heading_description mb-0">
+                                            we understand that every business is unique, with its own set of challenges, goals, and aspirations. That's why we offer tailored IT solutions designed.
+                                        </p>
+                                    </div>
+                                    <Link onClick={ClickHandler} href={'/service'} className="btn">
+                                        <span className="btn_label" data-text="Talk to an Expart">Talk to an Expart</span>
+                                        <span className="btn_icon">
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </span>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+>>>>>>> 82c3666f6d24f179b537c8ee32699be602aa86e9
                     </div>
                     <h2 className="heading_text">
                       Tailored IT Solutions for Your Success

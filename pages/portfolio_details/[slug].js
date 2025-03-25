@@ -26,8 +26,8 @@ const PortfolioSinglePage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content about-page">
-                <PageTitle pageTitle={PortfolioDetails?.title} pagesub={'Details 😃'} pageTop={'Portfolio'} />
-                <section className="portfolio_details_section section_space bg-light">
+                <PageTitle pageTitle={PortfolioDetails?.title} pagesub={'Details'} pageTop={'Portfolio'} />
+                <section className="portfolio_details_section section_space bg-white">
                     <div className="container">
                         <div className="details_item_image">
                             <Image src={psImg} alt="Portfolio Item" />
