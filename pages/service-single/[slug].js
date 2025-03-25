@@ -28,16 +28,12 @@ const ServiceSinglePage = (props) => {
         <Fragment>
             <Header />
             <main className="page_content service-single-page">
-                <PageTitle pageTitle={ServiceDetails?.title} pagesub={'Details 😍'} pageTop={'Services'} />
-                <section className="service_details_section section_space bg-light">
+                <PageTitle pageTitle={ServiceDetails?.title} pagesub={'Details'} pageTop={'Services'} />
+                <section className="service_details_section section_space bg-white">
                     <div className="container">
                         <div className="details_item_image position-relative">
                             <Image src={srImg} alt="Service Details" />
-                            <button className="video_btn ripple_effect" onClick={() => setOpen(true)}>
-                                <span className="btn_icon">
-                                    <i className="fa-solid fa-play"></i>
-                                </span>
-                            </button>
+
                         </div>
                         <h2 className="details_item_title">{ServiceDetails?.title}</h2>
                         <p>
