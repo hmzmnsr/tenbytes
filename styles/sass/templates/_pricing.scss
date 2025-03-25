@@ -38,6 +38,19 @@
 			margin-bottom: 12px;
 		}
 	}
+	.pricing_wbox{
+		background-color: black !important;
+		.iconbox_icon{
+			background-color: #ffffff;
+		}
+		.iconbox_title{
+			color: rgb(0, 68, 235);
+		}
+		p{
+			color:#ffffff ;
+		}
+	}
+
 }
 
 // Pricing Card Block
@@ -176,6 +189,15 @@
 		.pricing_monthly {
 			display: block;
 		}
+	}
+}
+
+.price_heaC{
+	h2{
+		color: rgb(0, 68, 235);
+	}
+	p{
+		color:#ffffff ;
 	}
 }
 /* 5.04 - Pricing Page - End
