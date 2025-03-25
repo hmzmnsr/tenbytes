@@ -138,7 +138,7 @@ const Header = (props) => {
                                       </span>
                                     </Link>
                                   </div>
-                                  <div className="col-lg-3 col-md-6">
+                                  {/* <div className="col-lg-3 col-md-6">
                                     <Link
                                       onClick={ClickHandler}
                                       className="iconbox_block_2"
@@ -159,7 +159,7 @@ const Header = (props) => {
                                         Streamlined Pricing
                                       </span>
                                     </Link>
-                                  </div>
+                                  </div> */}
                                   <div className="col-lg-3 col-md-6">
                                     <Link
                                       onClick={ClickHandler}
