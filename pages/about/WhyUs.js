@@ -41,7 +41,7 @@ const Policy = [
 const WhyUs = (props) => {
 
     return (
-        <section className="service_section section_space bg-black" style={{ marginBottom: "120px" }}>
+        <section className="service_section section_space bg-black" style={{ paddingBottom: "200px" }}>
             <div className="container">
                 <div className="row align-items-center justify-content-lg-between">
                     <div className="col-lg-6">

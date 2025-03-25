@@ -12,11 +12,11 @@ const ServiceSection = (props) => {
         <section className="service_section section_space xb-hidden pb-0">
             <div className="container">
                 <div className="heading_block text-center">
-                    <div className="heading_focus_text text-black">
+                    <div className="heading_focus_text text-danger">
                         Our
                         <span className="badge bg-secondary text-white">Specialize</span>
                     </div>
-                    <h2 className="heading_text mb-0 text-black">
+                    <h2 className="heading_text mb-0 text-danger">
                         Featured Services
                     </h2>
                 </div>
