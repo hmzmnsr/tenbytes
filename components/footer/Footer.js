@@ -37,9 +37,9 @@ const Footer = () => {
                                 <Image src={icon2} alt="Calling Check SVG Icon" />
                             </div>
                             <div className="iconbox_content">
-                                <h3 className="iconbox_title"> Call Us (USA)</h3>
+                                <h3 className="iconbox_title"> Call Us (UK)</h3>
                                 <p className="mb-0">
-                                    +(1) 1230 452 8597
+                                    +(44) 07301 842826
                                 </p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Footer = () => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    Waterloo, Park, Australia
+                                  107 HALL ROAD ISLEWORTH
                                 </p>
                             </div>
                         </div>
