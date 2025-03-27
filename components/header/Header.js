@@ -542,7 +542,7 @@ const Header = (props) => {
                                       <li>
                                         <Link
                                           onClick={ClickHandler}
-                                          href="/service-single//Maintenance-and-Customer-Support"
+                                          href="/service-single/Maintenance-and-Customer-Support"
                                         >
                                           <span className="icon_list_text">
                                             Healthcare
