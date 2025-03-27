@@ -50,7 +50,7 @@ const Footer = () => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Our Office</h3>
                                 <p className="mb-0">
-                                    Waterloo, Park, Australia
+                                107 HALL ROAD ISLEWORTH TW7 7PB
                                 </p>
                             </div>
                         </div>
