@@ -28,7 +28,7 @@ const Footer = () => {
                             <div className="iconbox_content">
                                 <h3 className="iconbox_title">Write to us</h3>
                                 <p className="mb-0">
-                                    Techco@gmail.com
+                                    support@tenbytes.co.uk
                                 </p>
                             </div>
                         </div>
