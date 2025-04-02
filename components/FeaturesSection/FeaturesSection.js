@@ -82,7 +82,7 @@ const FeaturesSection = (props) => {
                             </div>
                             <div className="content_wrap">
                                 <h3 className="title_text mb-0">
-                                    <b className="d-block">12000+</b> employees in 30 countries in Europe
+                                    <b className="d-block">130+</b> clients in 20 countries in Europe
                                 </h3>
                             </div>
                         </div>

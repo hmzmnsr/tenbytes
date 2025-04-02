@@ -380,10 +380,10 @@ const Header = (props) => {
                                   </div>
                                   <div className="author_box_content">
                                     <h3 className="author_name text-white">
-                                      Maverick Phoenix
+                                      Cristina M
                                     </h3>
                                     <span className="author_designation text-white">
-                                      CEO At Techco
+                                      Sales Head
                                     </span>
                                   </div>
                                   <div className="quote_icon">
@@ -391,11 +391,7 @@ const Header = (props) => {
                                   </div>
                                 </div>
                                 <p className="mb-0 text-white">
-                                  As a CEO at Techco I have been voice crying in
-                                  the wilderness, trying to make requirements
-                                  clear, use every minute to deliver the result,
-                                  and not reinvent the wheel. Here at Techco, I
-                                  made that possible for the clients.
+                                As the Sales Head at Techco, I focus on delivering clear, actionable solutions, maximizing every minute to meet client needs, and ensuring we don't reinvent the wheel. This approach drives results for our clients."
                                 </p>
                               </div>
                             </div>
@@ -679,7 +675,7 @@ const Header = (props) => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="social_area">
+                              {/* <div className="social_area">
                                 <ul
                                   className="social_icons_block unordered_list"
                                   data-text="Follow Us:"
@@ -711,7 +707,7 @@ const Header = (props) => {
                                     We’re Hiring
                                   </Link>
                                 </p>
-                              </div>
+                              </div> */}
                             </div>
                             <div className="col-lg-3">
                               <div className="megamenu_case bg-primary">
