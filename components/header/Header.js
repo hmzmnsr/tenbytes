@@ -9,7 +9,7 @@ import icon6 from "/public/images/icons/icon_users.svg";
 import icon7 from "/public/images/icons/icon_pen.svg";
 import icon8 from "/public/images/clients/client_logo_9.webp";
 import icon9 from "/public/images/clients/client_logo_10.webp";
-import icon10 from "/public/images/avatar/avatar_7.webp";
+import icon10 from "/public/images/avatar/avatar_7.png";
 import icon11 from "/public/images/icons/icon_quote.svg";
 import logo from "/public/images/site_logo/site_logo_3.png";
 import cases from "/public/images/case/case_image_4.webp";
@@ -375,7 +375,7 @@ const Header = (props) => {
                             <div className="col-lg-3">
                               <div className="site_author bg-primary">
                                 <div className="author_box">
-                                  <div className="author_image bg-light">
+                                  <div className="author_image">
                                     <Image src={icon10} alt="Site Author" />
                                   </div>
                                   <div className="author_box_content">
@@ -391,7 +391,7 @@ const Header = (props) => {
                                   </div>
                                 </div>
                                 <p className="mb-0 text-white">
-                                As the Sales Head at Techco, I focus on delivering clear, actionable solutions, maximizing every minute to meet client needs, and ensuring we don't reinvent the wheel. This approach drives results for our clients."
+                                As the Sales Head at TenBytes, I focus on delivering clear, actionable solutions, maximizing every minute to meet client needs, and ensuring we don't reinvent the wheel. This approach drives results for our clients."
                                 </p>
                               </div>
                             </div>

@@ -33,7 +33,7 @@ const HomePage = () => {
                     <CtaSection />
                 </main>
                 <Footer />
-                <Scrollbar />
+                <Scrollbar /> 
             </div>
         </Fragment>
     )
