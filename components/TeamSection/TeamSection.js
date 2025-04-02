@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Teams from '../../api/team'
+import Teams from '../../pages/api/team'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

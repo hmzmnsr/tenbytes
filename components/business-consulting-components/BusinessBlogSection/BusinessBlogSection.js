@@ -1,5 +1,5 @@
 import React from 'react'
-import blogs from '../../../api/blogs'
+import blogs from '../../../pages/api/blogs'
 import Link from 'next/link'
 import Image from 'next/image'
 

@@ -55,8 +55,8 @@ const ContactSection = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title text-white">Visit Between</h3>
-                <p className="mb-0 text-white">Mon - Sat: 8.00-5.00</p>
-                <p className="mb-0 text-white">Sunday: Closed</p>
+                <p className="mb-0 text-white">Mon - Fri: 9.00-17.00</p>
+                <p className="mb-0 text-white">Sat & Sun: Closed</p>
               </div>
             </div>
           </div>

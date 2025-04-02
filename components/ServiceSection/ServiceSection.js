@@ -1,5 +1,5 @@
 import React from 'react';
-import Services from '../../api/service'
+import Services from '../../pages/api/service'
 import Link from 'next/link'
 import Image from 'next/image';
 

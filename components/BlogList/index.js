@@ -2,7 +2,7 @@ import { useRef, useEffect } from 'react';
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Link from 'next/link'
-import blogs from '../../api/blogs'
+import blogs from '../../pages/api/blogs'
 import bImg from '/public/images/blog/blog_post_image_4.webp'
 import arrow from '/public/images/shapes/shape_arrow_right.svg'
 import arrow2 from '/public/images/shapes/shape_arrow_left.svg'

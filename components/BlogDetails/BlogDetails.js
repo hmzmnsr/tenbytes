@@ -19,7 +19,7 @@ import sImg2 from '/public/images/icons/icon_twitter_x.svg'
 import sImg3 from '/public/images/icons/icon_linkedin.svg'
 import sImg4 from '/public/images/icons/icon_instagram.svg'
 
-import blogs from '../../api/blogs';
+import blogs from '../../pages/api/blogs';
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import BlogSidebar from '../BlogSidebar';

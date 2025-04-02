@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CountryList from "../../api/country";
+import CountryList from "../../pages/api/country";
 import { TabContent, TabPane, Nav, NavItem, NavLink } from "reactstrap";
 import classnames from "classnames";
 import Link from "next/link";

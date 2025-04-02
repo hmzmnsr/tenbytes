@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Pagination, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-import Project from '../../api/project';
+import Project from '../../pages/api/project';
 
 const ProjectSection = () => {
     const [hydrated, setHydrated] = useState(false);

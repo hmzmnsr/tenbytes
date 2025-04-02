@@ -4,7 +4,7 @@ import icon1 from '/public/images/icons/icon_mail.svg'
 import icon2 from '/public/images/icons/icon_calling.svg'
 import icon3 from '/public/images/icons/icon_map_mark.svg'
 import icon4 from '/public/images/icons/icon_mail_2.svg'
-import Services from '../../api/service'
+import Services from '../../pages/api/service'
 import Image from 'next/image'
 
 const ClickHandler = () => {

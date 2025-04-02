@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
-import Teams from '../../api/team'
+import Teams from '../api/team'
 import CountUp from 'react-countup';
 import { useRouter } from 'next/router'
 import Link from "next/link";

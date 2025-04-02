@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import Services from '../../api/service'
+import Services from '../api/service'
 import { useRouter } from 'next/router'
 import ModalVideo from 'react-modal-video'
 import Header from '../../components/header/Header';

@@ -796,14 +796,7 @@ const Header = (props) => {
                             Help Center
                           </Link>
                         </li>
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Careers{" "}
-                            <small className="badge bg-danger-subtle text-danger">
-                              We’re Hiring
-                            </small>
-                          </Link>
-                        </li>
+
                       </ul>
                     </li>
                     <li>

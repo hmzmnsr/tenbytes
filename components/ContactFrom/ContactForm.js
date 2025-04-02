@@ -22,21 +22,40 @@ const ContactForm = (props) => {
         }
     };
 
-    const submitHandler = e => {
+    const submitHandler = async (e) => {
         e.preventDefault();
+    
         if (validator.allValid()) {
             validator.hideMessages();
-            setForms({
-                name: '',
-                email: '',
-                subject: '',
-                phone: '',
-                message: ''
-            })
+    
+            // Send form data to the API
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(forms), // Send form data as JSON
+            });
+    
+            const result = await response.json();
+    
+            if (response.ok) {
+                alert('Message sent successfully!');
+                setForms({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    phone: '',
+                    message: ''
+                });
+            } else {
+                alert('There was an error sending the message.');
+            }
         } else {
             validator.showMessages();
         }
     };
+    
 
     return (
         <form onSubmit={(e) => submitHandler(e)}>

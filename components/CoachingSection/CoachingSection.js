@@ -1,5 +1,5 @@
 import React from 'react';
-import Coaching from '../../api/coaching'
+import Coaching from '../../pages/api/coaching'
 import arrow from '/public/images/icon/long_arrow_right.svg'
 import Link from "next/link";
 import Image from 'next/image';

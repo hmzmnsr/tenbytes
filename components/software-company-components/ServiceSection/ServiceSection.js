@@ -1,5 +1,5 @@
 import React from 'react';
-import Services from '../../../api/service'
+import Services from '../../../pages/api/service'
 import Link from 'next/link'
 import shape1 from '/public/images/shapes/shape_line_5.svg'
 import shape2 from '/public/images/shapes/shape_line_6.svg'

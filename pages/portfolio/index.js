@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import Project from '../../api/project';
+import Project from '../api/project';
 import Link from "next/link";
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle';

@@ -1,5 +1,5 @@
 import React from 'react'
-import blogs from '../../../api/blogs'
+import blogs from '../../../pages/api/blogs'
 import Link from 'next/link'
 import icon1 from '/public/images/icons/icon_calendar.svg'
 import shape1 from '/public/images/shapes/shape_line_7.svg'

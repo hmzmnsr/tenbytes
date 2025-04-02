@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
-import Project from '../../api/project';
+import Project from '../api/project';
 import Link from "next/link";
 import { useRouter } from 'next/router'
 import PageTitle from '../../components/pagetitle/PageTitle'

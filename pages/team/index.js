@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Link from "next/link";
-import Teams from '../../api/team'
+import Teams from '../api/team'
 import Header from '../../components/header/Header';
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Scrollbar from '../../components/scrollbar/scrollbar'
