@@ -37,7 +37,7 @@ const About = (props) => {
                                     Our Commitment to Client Satisfaction
                                 </h2>
                                 <p className="heading_description mb-0">
-                                    At Techco, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
+                                    At TenBytes, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
                                 </p>
                             </div>
                             <ul className="icon_list unordered_list_block mb-5">
@@ -66,7 +66,7 @@ const About = (props) => {
                                     </span>
                                 </li>
                             </ul>
-                            <ul className="btns_group unordered_list p-0 justify-content-start">
+                            <ul className="btns_group unordered_list p-0 m" style={{ marginRight: '100px' }}>
                                 <li>
                                     <Link onClick={ClickHandler} href="/pricing" className="btn">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
@@ -74,14 +74,6 @@ const About = (props) => {
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>
                                     </Link>
-                                </li>
-                                <li>
-                                    <button className="video_btn" onClick={() => setOpen(true)}>
-                                        <span className="btn_icon">
-                                            <i className="fa-solid fa-play"></i>
-                                        </span>
-                                        <span className="btn_label">How We Works</span>
-                                    </button>
                                 </li>
                             </ul>
                         </div>
