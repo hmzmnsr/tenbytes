@@ -383,7 +383,7 @@ const Header = (props) => {
                                       Cristina M
                                     </h3>
                                     <span className="author_designation text-white">
-                                      Sales Head
+                                      Head of Sales
                                     </span>
                                   </div>
                                   <div className="quote_icon">
