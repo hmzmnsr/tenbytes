@@ -21,7 +21,7 @@ const ServicePage = (props) => {
       <main className="page_content about-page">
         <PageTitle
           pageTitle={"Our Services"}
-          pagesub={"Services 😍"}
+          pagesub={"Services"}
           pageTop={"Our Main"}
         />
         <section className="about_section section_space bg-light">
