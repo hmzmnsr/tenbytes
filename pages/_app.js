@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Techco - IT Solutions & Business</title>
+        <title>TenBytes - IT Solutions & Business</title>
       </Head>
       <Component {...pageProps} />
     </div>
