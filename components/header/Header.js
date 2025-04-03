@@ -391,7 +391,7 @@ const Header = (props) => {
                                   </div>
                                 </div>
                                 <p className="mb-0 text-white">
-                                As the Sales Head at TenBytes, I focus on delivering clear, actionable solutions, maximizing every minute to meet client needs, and ensuring we don't reinvent the wheel. This approach drives results for our clients."
+                                As the Head of Sales at TenBytes, I focus on delivering clear, actionable solutions, maximizing every minute to meet client needs, and ensuring we don't reinvent the wheel. This approach drives results for our clients."
                                 </p>
                               </div>
                             </div>
