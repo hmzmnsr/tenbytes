@@ -31,8 +31,8 @@ const ContactSection = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title text-white">Contact</h3>
-                <p className="mb-0 text-white">+88(0) 555-0108</p>
-                <div className="mb-0 text-white">+88(0) 555-01117</div>
+                <p className="mb-0 text-white">+(44) 07301 842826</p>
+                <div className="mb-0 text-black">.</div>
               </div>
             </div>
           </div>
@@ -43,8 +43,8 @@ const ContactSection = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title text-white">Email</h3>
-                <p className="mb-0 text-white">Techco@example.com</p>
-                <p className="mb-0 text-white">gmail.@example.com</p>
+                <p className="mb-0 text-white">support@tenbytes.co.uk</p>
+                <p className="mb-0 text-white">salesmanager@tenbytes.co.uk</p>
               </div>
             </div>
           </div>
